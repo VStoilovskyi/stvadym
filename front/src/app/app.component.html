@@ -1,0 +1,12 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to VadymST!
+  </h1>
+  <input [(ngModel)]="register.username"placeholder="Username" title="Username"><br>
+  <input [(ngModel)]="register.password" type="password" placeholder="Password"><br>
+  <input [(ngModel)]="register.email" type="text" placeholder="E-mail"><br>
+  <button (click)="userRegister()">Sign Up</button>
+</div>
+
+<router-outlet></router-outlet>
