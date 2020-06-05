@@ -1,4 +1,4 @@
-django==2.2.3
+django==2.2.13
 djangorestframework==3.10.1
 dnspython==1.16.0
 djongo==1.2.33
